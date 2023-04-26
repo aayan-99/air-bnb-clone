@@ -36,7 +36,7 @@ const Help = ({ exploreData, cardsData, placeholder }) => {
         {/* login redirection */}
         <div className='w-full flex lg:border rounded-[20px] p-6 poppins md:my-20'>
           <div className='hidden lg:flex flex-col flex-grow'>
-            <h1 className='text-[25px] font-[500]'>We're here for you</h1>
+            <h1 className='text-[25px] font-[500]'>We are here for you</h1>
             <h3 className='text-[16px]'>Log in to get help with your reservations, account, and more.</h3>
           </div>
           <div className='flex-grow flex justify-center items-center'>

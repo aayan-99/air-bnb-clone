@@ -48,9 +48,9 @@ const Navbar = ({ placeholder }) => {
     setEndDate(ranges.selection.endDate)
   };
 
-  useEffect(() => {
-    console.log(router?.route)
-  }, [])
+  // useEffect(() => {
+  //   console.log(router?.route)
+  // }, [])
 
 
   return (
