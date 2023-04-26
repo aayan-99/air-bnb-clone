@@ -60,6 +60,7 @@ const Navbar = ({ placeholder }) => {
         {/* left */}
         <div onClick={() => router.push('/')} className='hidden relative md:flex items-center h-10 cursor-pointer'>
           <Image
+          alt='info-img'
             src='https://links.papareact.com/qd3'
             layout='fill'
             objectFit='contain'
@@ -68,7 +69,7 @@ const Navbar = ({ placeholder }) => {
         </div>
 
         <div onClick={() => router.push('/')} className='w-[80px] md:hidden relative flex justify-center items-center cursor-pointer'>
-          <Image src={smallLogo} objectFit='contain' objectPosition='left' height={40} />
+          <Image alt='info-img' src={smallLogo} objectFit='contain' objectPosition='left' height={40} />
         </div>
 
 

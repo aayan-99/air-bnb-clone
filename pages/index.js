@@ -48,7 +48,7 @@ export default function Home({ exploreData, cardsData }) {
           <div className='flex space-x-4 overflow-x-scroll p-3 md:p-4 scrollbar-hide'>
             {
               cardsData?.map((data, i) => (
-                <MediumCard img={data?.img} title={data?.title} />
+                <MediumCard key={i} img={data?.img} title={data?.title} />
               ))
             }
           </div>

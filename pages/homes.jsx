@@ -24,7 +24,7 @@ const Homes = () => {
           {/* right side */}
           <div className='flex-grow '>
             <div className='relative w-full max-w-[600px] h-[600px]'>
-              <Image src='/map.jpg' layout='fill' objectFit='cover' />
+              <Image alt='map' src='/map.jpg' layout='fill' objectFit='cover' />
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ const InfoCard = ({ img, location, title, description, star, price, total }) => 
   return (
     <div className='flex py-7 px-2 pr-4 border-b cursor-pointer opacity-85 hover:opacity-100 hover:shadow-lg transition-all duration-150 ease-out first:border-t'>
       <div className='relative w-40 h-24 md:w-80 md:h-52 flex-shrink'>
-        <Image src={img} layout='fill' objectFit='cover' className='rounded-2xl' />
+        <Image alt='info-img' src={img} layout='fill' objectFit='cover' className='rounded-2xl' />
       </div>
       <div className='flex flex-col flex-grow pl-5'>
 

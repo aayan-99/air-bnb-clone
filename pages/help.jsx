@@ -52,7 +52,7 @@ const Help = ({ exploreData, cardsData, placeholder }) => {
           <div className='flex space-x-4 overflow-x-scroll p-3 md:p-4 scrollbar-hide'>
             {
               cardsData?.map((data, i) => (
-                <MediumCard img={data?.img} title={data?.title} />
+                <MediumCard key={i} img={data?.img} title={data?.title} />
               ))
             }
           </div>
@@ -65,7 +65,7 @@ const Help = ({ exploreData, cardsData, placeholder }) => {
 
           <div className='w-full hover:scale-110 transition-all duration-200 ease-out cursor-pointer'>
             <div className='relative w-full h-[200px]'>
-              <Image src='/help-img-1.png' className=' rounded-t-[15px]' layout='fill' objectFit='cover' />
+              <Image alt='help-img' src='/help-img-1.png' className=' rounded-t-[15px]' layout='fill' objectFit='cover' />
             </div>
             <div className='bg-[#222222] px-5 py-3 rounded-b-[15px]'>
               <h2 className='text-white text-[16px] font-[600]'>Our comunity policies</h2>
@@ -74,7 +74,7 @@ const Help = ({ exploreData, cardsData, placeholder }) => {
 
           <div className='w-full hover:scale-110 transition-all duration-200 ease-out cursor-pointer'>
             <div className='relative w-full h-[200px]'>
-              <Image src='/help-img-2.png' className=' rounded-t-[15px]' layout='fill' objectFit='cover' />
+              <Image alt='help-img' src='/help-img-2.png' className=' rounded-t-[15px]' layout='fill' objectFit='cover' />
             </div>
             <div className='bg-[#222222] px-5 py-3 rounded-b-[15px]'>
               <h2 className='text-white text-[16px] font-[600]'>Safety tips and guidelines</h2>
@@ -83,7 +83,7 @@ const Help = ({ exploreData, cardsData, placeholder }) => {
 
           <div className='w-full hover:scale-110 transition-all duration-200 ease-out cursor-pointer'>
             <div className='relative w-full h-[200px]'>
-              <Image src='/help-img-3.jpg' className=' rounded-t-[15px]' layout='fill' objectFit='cover' />
+              <Image alt='help-img' src='/help-img-3.jpg' className=' rounded-t-[15px]' layout='fill' objectFit='cover' />
             </div>
             <div className='bg-[#222222] px-5 py-3 rounded-b-[15px]'>
               <h2 className='text-white text-[16px] font-[600]'>Our journey</h2>
