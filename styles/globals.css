@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .filter-button {
+    @apply px-4 py-2 shadow-lg border border-gray-100 rounded-full cursor-pointer hover:shadow-lg active:scale-90 active:bg-gray-100 transition-all duration-75 ease-out;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
